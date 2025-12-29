@@ -470,13 +470,13 @@ end)
 _G.Stepped = RS.Stepped:Connect(function()
     InFootingCheck()
     
-    if IsInFooting then
-        HL.Enabled = true
-    else
-        HL.Enabled = false
-    end
+  --  if IsInFooting then
+  --      HL.Enabled = true
+ --   else
+  --      HL.Enabled = false
+  --  end
     
-    if HL.Adornee.Parent == nil and Player.Character then
-        HL.Adornee = Player.Character
-    end
+ --   if HL.Adornee.Parent == nil and Player.Character then
+    --    HL.Adornee = Player.Character
+  --  end
 end)
